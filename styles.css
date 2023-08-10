@@ -1,54 +1,94 @@
 body {
-    text-align: center;
-    background-color: #011F3F;
-  }
+  text-align: center;
+  background-color: #011F3F;
+
+
+
+}
+
+ul, ol {
+  list-style: none;
+  color: #828282a4;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 600;
+}
+
+h1,h3,p {
+  align-items: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+} 
+h2{
+  color: rgba(255, 0, 0, 0.699);
+  font-family: 'Press Start 2P', cursive;
+  font-size: 30px;
+}
+
+#level-title {
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  backdrop-filter: blur(100px);
+  -webkit-backdrop-filter: blur(5px); 
+}
+.bottom{
+  background-color: #011F3F;
+  margin: 0 25%;
+  padding: 10px;
+  border-radius: 10px;
   
-  #level-title {
-    font-family: 'Press Start 2P', cursive;
-    font-size: 3rem;
-    margin:  5%;
-    color: #FEF2BF;
-  }
-  
-  .container {
-    display: block;
-    width: 50%;
-    margin: auto;
-  
-  }
-  
-  .btn {
-    margin: 25px;
-    display: inline-block;
-    height: 200px;
-    width: 200px;
-    border: 10px solid black;
-    border-radius: 20%;
-  }
-  
-  .game-over {
-    background-color: red;
-    opacity: 0.8;
-  }
-  
-  .red {
-    background-color: red;
-  }
-  
-  .green {
-    background-color: green;
-  }
-  
-  .blue {
-    background-color: blue;
-  }
-  
-  .yellow {
-    background-color: yellow;
-  }
-  
-  .pressed {
-    box-shadow: 0 0 20px white;
-    background-color: grey;
-  }
-  
+}

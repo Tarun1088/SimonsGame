@@ -3,37 +3,47 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Simon</title>
+  <title>Simon's Game</title>
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 </head>
 
 <body>
-  <h1 id="level-title">Press A Key to Start</h1>
+  <video id="background-video" preload="true" autoplay loop muted>
+    <source src="/video/space.mp4" type="video/mp4" /> 
+ </video>
+  <h1 id="level-title">Simon's Memory Game</h1>
   <div class="container">
-    <div lass="row">
-
+    <div class="row">
       <div type="button" id="green" class="btn green">
-
       </div>
-
       <div type="button" id="red" class="btn red">
-
       </div>
     </div>
-
     <div class="row">
-
       <div type="button" id="yellow" class="btn yellow">
 
       </div>
       <div type="button" id="blue" class="btn blue">
 
       </div>
-
     </div>
-
   </div>
+<div class="bottom">
+  <h2>How to P🚀ay:</h2>
+  <p>Welcome to Simon's Memory Game! The game will show you a sequence of colored buttons that you need to remember and repeat. Follow these steps:</p>
+  <ol>
+    <li>Press A Key to Start the game.</li>
+    <li>Observe the sequence of buttons highlighted by the computer.</li>
+    <li>Try to repeat the exact sequence by clicking on the buttons.</li>
+    <li>The game will get progressively harder as you successfully complete each round.</li>
+    <li>If you repeat the sequence correctly, you advance to the next level. Otherwise, the game will end.</li>
+  </ol>
+
+  <h3>About Simon's Game:</h3>
+  <p>Simon's Game is a classic memory skill game where the computer generates a random sequence of buttons, and you need to remember and replicate it. The game tests and improves your memory and cognitive skills. Have fun playing!</p>
+
+</div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="game.js" charset="utf-8"></script>
